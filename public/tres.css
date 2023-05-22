@@ -1,0 +1,180 @@
+@media screen and (max-width:3800px){
+     
+    .info{
+      font-size: 1.5vw;
+    }
+ }
+@media screen and (max-width:2660px){
+    
+    .info{
+      max-width:25vw ;
+    }
+    
+ }
+ 
+
+@media screen and (max-width:1365.9px){
+     #inputmsg{
+      font-size: 1.5vw;
+     }
+     .message-sent-bar .emoji img{
+      width:2vw ;height: 3.5vh;
+    }
+    .message-sent-bar button #voice{
+width: 3vw;height: 5vh;
+    }
+    .message-sent-bar button #sent{
+width: 3vw;height: 5vh;
+    }
+    .message-sent-bar button{
+      width: 4.5vw;height: 6.5vh;
+    }
+ }
+
+@media screen and (max-width:1300px){
+     .content .mymsgs{
+      
+       font-size: 2.3vw;
+     }
+     .content .othermsgs{
+      
+       font-size: 2.3vw;
+     }
+     .info{
+      font-size: 2vw;
+     }
+    
+ }
+
+@media screen and (max-width:1350px){
+  nav{
+    height:15vh ;
+  }
+  nav img{
+    width: 13vw;height: 14vh;
+    border-radius: 4vw;
+    margin: 1vh 0 0 5vw;
+  }
+     nav .features img{
+      width: 5vw; height: 6vh;
+      
+     }
+    .message{
+      font-size: 3vw;
+    }
+    /* .info{
+      font-size: 2.5vw;
+    } */
+ }
+ @media screen and (max-width:1230px) {
+  #inputmsg{
+    font-size: 2vw;
+  }
+ }
+ @media screen and (max-width:1000px){
+  .content .mymsgs{
+   
+    font-size: 2.5vw;
+  }
+  .content .othermsgs{
+   
+    font-size: 2.5vw;
+  }
+ 
+}
+ /* @media screen and (max-width:850px){
+     .info{
+      font-size: 3vw;
+     }
+    
+ } */
+ @media screen and (max-width:900px){
+  #inputmsg{
+    font-size: 3vw;
+  }
+ }
+ @media screen and (max-width:850px){
+  .message-sent-bar .emoji img{
+    width:2.6vw ;height: 3.5vh;
+    margin: 0 1vw 1vh 0;
+  }
+  .message-sent-bar button #voice{
+width: 3.9vw;height: 5vh;
+right: 1.5vw;
+  }
+  .message-sent-bar button #sent{
+width: 3.9vw;height: 5vh;
+  }
+  .message-sent-bar button{
+    width: 7vw;height: 6.5vh;
+    left:57vw;
+  }
+ }
+ @media screen and (max-width:700px){
+  .content .mymsgs{
+    margin: 5vw;
+  }
+  .content .othermsgs{
+    margin: 5vw;
+  }
+  
+ 
+}
+
+@media screen and (max-width:650px){
+  
+  nav img{
+    width: 13vw;height: 10vh;
+    border-radius: 4vw;
+    margin: 1vh 0 0 5vw;
+  }
+     nav .features img{
+      width: 6vw; height: 7vh;
+      
+     }
+    .message{
+      font-size: 3.5vw;
+    }
+    .info{
+      font-size: 2.3vw;
+    }
+ }
+
+ @media screen and (max-width:650px){
+    
+  .info{
+    max-width: 70vw;
+    font-size: 4vw ;
+  }
+}
+ @media screen and (max-width:600px){
+  .message-sent-bar .emoji img{
+    width:3.5vw ;height: 3.5vh;
+    margin: 0 1vw 1vh 0;
+  }
+  .message-sent-bar button #voice{
+width: 5.5vw;height: 5vh;
+right: 1vw;
+  }
+  .message-sent-bar button #sent{
+width: 5vw;height: 5vh;
+  }
+  .message-sent-bar button{
+    width: 8vw;height: 6.5vh;
+    left:57vw;
+  }
+ 
+}
+ 
+ @media screen and (max-width:545px){
+  nav .features img{
+    margin: 0 8vw 0 8vw;
+    width: 8vw;height: 7vh;
+  }
+  nav img{
+    width: 15vw;
+    height: 11vh;
+    border-radius: 6vw;
+  }
+  
+}

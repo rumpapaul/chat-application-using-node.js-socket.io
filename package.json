@@ -1,0 +1,29 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node \"c:\\Users\\RUMPA\\Desktop\\projects using node js\\chat application\\app.js\""
+  },
+  "author": "rumpa paul",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "emoji-mart": "^5.5.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.4",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.6.1"
+  }
+}

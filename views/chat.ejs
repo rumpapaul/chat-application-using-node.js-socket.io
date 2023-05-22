@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApplication</title>
+   
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="tres.css">
+</head>
+<body>
+    <nav>
+        <img src="chat.webp" alt="">
+        <div class="features"><img src="delete1.png" id="delete" alt="">
+      <input type="file" name="inputfile" id="inputfile" style="display: none;"> <img src="share1.png" id="share" alt="">
+    <img src="phone.png" class="phone" alt=""></div>
+    </nav>
+<div class="welcome" style="color: white;"></div>
+<div class="content">
+
+
+
+
+    
+</div>
+
+</div>
+<form action="#" id="form" >
+    <div class="message-sent-bar">
+        <div class="emoji">
+            <img src="happy.png" alt="">
+        </div>
+       
+       <input id="inputmsg" type="text" placeholder="Message" name="message">
+
+       <button type="submit">
+        <img id="sent" src="sent.png" alt="">
+        <img id="voice" src="voice.png" alt="">
+       </button></form>
+    </div>
+   <!-- qs cdn to get username and room from login page -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.1/qs.min.js" integrity="sha512-5Zv/hNtOKSkeScnIYOqGjng82gQSHsCoyqq9TgrJLgYa032cUYWH4kF1ayS8Gz1Jfge7e8MaBF6AeEvoQ92v8w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
