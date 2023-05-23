@@ -40,7 +40,7 @@ app.use(session({
 }))
 
 
-const {User,Message}=require('./models/store')
+const Message=require('./models/store')
 // const User=require()
 // set port
 const port=process.env.PORT||3000

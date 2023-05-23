@@ -9,16 +9,16 @@ mongoose.connect('mongodb://127.0.0.1:27017/chat-app',{
 });
 
 //define the user schema
-const userSchema= new mongoose.Schema({
-    username:{
-        type:String,
-        required:true
-    },
-    userpassword:{
-        type:String,
-        required:true
-    }
-})
+// const userSchema= new mongoose.Schema({
+//     username:{
+//         type:String,
+//         required:true
+//     },
+//     userpassword:{
+//         type:String,
+//         required:true
+//     }
+// })
 // define the messageschema
 const messageSchema =new mongoose.Schema({
 text:{
@@ -42,8 +42,8 @@ createdDate:{
 
 //define the group schema
 
-const User=mongoose.model('User',userSchema)
+// const User=mongoose.model('User',userSchema)
 const Message=mongoose.model('Message',messageSchema)
 
 
-module.exports={User,Message}
+module.exports=Message
